@@ -1,8 +1,7 @@
 package com.sg.math;
 
-import org.junit.jupiter.api.*;
-
 import com.sg.antman.AbstractTestJunit;
+import org.junit.jupiter.api.*;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class MathUtilsOne extends AbstractTestJunit<MathUtils> {
@@ -37,6 +36,5 @@ public class MathUtilsOne extends AbstractTestJunit<MathUtils> {
         int result = this.test.multiple(2,-3);
         Assertions.assertEquals(-6, result);
     }
-
 
 }
